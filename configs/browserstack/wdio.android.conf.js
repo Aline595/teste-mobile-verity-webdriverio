@@ -27,10 +27,8 @@ exports.config = {
     // Capabilities
     // ============
 
-    maxInstances: 2,
+    maxInstances: 1,
     capabilities: [{
-        'appium:deviceName': 'Samsung Galaxy S22',
-        'appium:os_version': '12.0',
         'appium:automationName': 'UiAutomator2',
         platformName: 'Android',
         'appium:app': process.env.BROWSERSTACK_ANDROID,
@@ -67,7 +65,6 @@ exports.config = {
     connectionRetryCount: 3,
     
     services: ['browserstack'],
-    maxInstances: 1,
 
     framework: 'mocha',
     mochaOpts: {
