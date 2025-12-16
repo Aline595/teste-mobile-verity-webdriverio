@@ -1,0 +1,12 @@
+/node_modules
+/yarn.lock
+/package-lock.json
+/apps/**/*.apk
+/apps/**/*.app
+/allure-report
+/report-ios-browserstack
+/report-android-browserstack
+/results-ios-local
+/results-android-local
+/logs
+.env
