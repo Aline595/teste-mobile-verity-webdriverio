@@ -40,6 +40,15 @@ exports.config = {
         'appium:browserstack.idleTimeout': '120',
         'appium:language': 'pt',
         'appium:locale': 'BR',  
+
+        'bstack:options': {
+        deviceName: 'Samsung Galaxy S22',
+        osVersion: '12.0',
+        projectName: 'WDIO Mobile',
+        buildName: 'GitHub Actions',
+        sessionName: 'Android App Test',
+        idleTimeout: 120
+        }
     }],
 
     // ===================
