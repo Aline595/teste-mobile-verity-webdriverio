@@ -31,6 +31,7 @@ exports.config = {
 
     maxInstances: 1,
     capabilities: [{
+        browserName: null,
         'appium:automationName': 'UiAutomator2',
         platformName: 'Android',
         'appium:app': process.env.BROWSERSTACK_ANDROID,
