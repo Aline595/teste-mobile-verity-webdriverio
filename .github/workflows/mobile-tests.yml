@@ -41,5 +41,5 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: report-android-browserstack
-        path: report-android-browserstack
+        name: allure-report
+        path: allure-report
