@@ -4,6 +4,7 @@
 /apps/**/*.apk
 /apps/**/*.app
 /allure-report
+/allure-results
 /report-ios-browserstack
 /report-android-browserstack
 /results-ios-local
