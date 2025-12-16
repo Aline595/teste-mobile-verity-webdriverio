@@ -68,8 +68,8 @@ exports.config = {
     },
     
     reporters: ['spec', ['allure', {
-        outputDir: 'report-android-browserstack',
-        disableWebdriverStepsReporting: true,
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: false,
         disableWebdriverScreenshotsReporting: false
     }]],
    

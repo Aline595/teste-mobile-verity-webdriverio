@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: CT05 - Deve Validar a ação de click no botão \\\"Home\\\".\",\"level\":\"info\"}}",
+  "args": []
+}

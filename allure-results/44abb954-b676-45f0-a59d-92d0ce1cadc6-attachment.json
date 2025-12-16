@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: CT09 - Deve validar os preenchimentos dos campos da tela de \\\"Login\\\".\",\"level\":\"info\"}}",
+  "args": []
+}

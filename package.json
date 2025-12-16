@@ -11,7 +11,7 @@
     "@babel/preset-env": "^7.20.2",
     "@babel/register": "^7.21.0",
     "@types/chai": "^4.3.5",
-    "@wdio/allure-reporter": "^7.33.0",
+    "@wdio/allure-reporter": "^7.40.0",
     "@wdio/appium-service": "^7.30.0",
     "@wdio/browserstack-service": "^7.26.0",
     "@wdio/cli": "^7.30.0",
@@ -32,7 +32,7 @@
     "wdio_local_android": "wdio run ./configs/local/wdio.android.conf.js",
     "wdio_local_ios": "wdio run ./configs/local/wdio.ios.conf.js",
     "wdio_android_BS": "wdio run ./configs/browserstack/wdio.android.conf.js",
-    "allure:generate": "allure generate report-android-browserstack --clean -o report-android-browserstack",
-    "allure:open": "allure open report-android-browserstack"
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
   }
 }
