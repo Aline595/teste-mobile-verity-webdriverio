@@ -1,4 +1,0 @@
-{
-  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: CT03 - Deve validar o click na Feature Toggle e a label \\\"Click to turn the switch OFF\\\" da tela de \\\"Forms\\\".\",\"level\":\"info\"}}",
-  "args": []
-}

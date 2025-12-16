@@ -10,4 +10,5 @@
 /results-ios-local
 /results-android-local
 /logs
+allure*
 .env

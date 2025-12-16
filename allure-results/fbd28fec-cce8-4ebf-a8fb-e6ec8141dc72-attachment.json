@@ -1,4 +1,0 @@
-{
-  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: CT01 - Deve validar as labels da tela de \\\"Forms\\\".\",\"level\":\"info\"}}",
-  "args": []
-}

@@ -1,4 +1,0 @@
-{
-  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: CT10 - Deve validar as ações e os resultados esperados da subtela \\\"Sign Up\\\" na tela de \\\"Login\\\".\",\"level\":\"info\"}}",
-  "args": []
-}
