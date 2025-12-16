@@ -36,7 +36,7 @@ exports.config = {
         'appium:app': process.env.BROWSERSTACK_ANDROID,
         'appium:autoAcceptAlerts': true,
         'appium:autoGrantPermissions': true,
-        'appium:newCommandTimeout': 18000,
+        'appium:newCommandTimeout': 30000,
         'appium:browserstack.idleTimeout': '120',
         'appium:language': 'pt',
         'appium:locale': 'BR',  
