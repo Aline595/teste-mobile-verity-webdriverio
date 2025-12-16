@@ -60,14 +60,14 @@ exports.config = {
     
     // Default timeout for all waitFor* commands.
 
-    waitforTimeout: 18000,
+    waitforTimeout: 30000,
     
     // Default request retries count
     
     connectionRetryCount: 3,
     
     services: ['browserstack'],
-
+    maxInstances: 1,
 
     framework: 'mocha',
     mochaOpts: {
